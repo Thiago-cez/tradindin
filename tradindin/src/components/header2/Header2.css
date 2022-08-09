@@ -1,0 +1,95 @@
+.separa-menu-base2{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 100%;
+    margin-left: 15vw;
+    margin-top: 1%;
+}
+
+.logo_menu-base2{
+    margin-top: 1.5%;
+    width: 100%;
+}
+
+.logo_menu-base2lik{
+    margin-top: 1.5%;
+    width: 17%;
+}
+
+
+#menu-header-base2{
+    padding-top: 2%;
+    width: 100%;
+    margin-left: 2%;
+}
+
+
+
+header  ul li { 
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+header  ul li {
+    padding: 2px 3%;
+}
+
+header  ul li a {
+
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+/* header ul li a:hover {
+    color: rgb(12, 194, 109);
+} */
+
+
+.item-menu2 :hover{
+    color: rgb(12, 194, 109);
+}
+
+
+.botao-logout-header{
+    font-size: 14px;
+  	border-radius: 28px;
+    color: #FFF;
+    background-color: rgb(201, 12, 59);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 800;
+    text-decoration:none;
+    padding: 1% 2%;
+    letter-spacing: 2px;
+
+}
+
+.botao-logout-header:hover {
+	background-color: rgb(167, 14, 52);
+    color: white;
+    transition: 0.5s;
+    border: 0px solid #ffffff;
+}
+
+.botao-logout-trade{
+    font-size: 14px;
+  	border-radius: 28px;
+    color: #FFF;
+	background-color:rgba(15, 146, 85, 100);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 800;
+    text-decoration:none;
+    padding: 1% 2%;
+    letter-spacing: 2px;
+}
+
+.botao-logout-trade:hover{
+    background-color:rgb(57, 94, 26);
+    color: white;
+    transition: 0.5s;
+    border: 0px solid #ffffff;
+}

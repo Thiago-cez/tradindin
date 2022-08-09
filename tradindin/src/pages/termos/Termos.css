@@ -1,0 +1,157 @@
+.chamada_termos{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 7%;
+        background-image: linear-gradient(to bottom, #32363f, #282f3d, #1e273b, #132039, #051937);
+    }
+
+.linha-termos{
+        border-top: 1px solid rgb(235, 229, 229);
+        border-bottom: 1px solid rgb(235, 229, 229);
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+.chamada_seguranca_termos {
+    background: linear-gradient(
+        266deg, rgba(6, 139, 106, 0.93) 0%, rgba(92, 68, 158, 0.93) 100%);
+    width: 100%;
+    padding: 2%;
+  }
+
+
+  .chamada_seguranca_termos-t1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 8%;
+  }
+  
+  .chamada_seguranca_termos-t2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 8%;
+}
+
+
+.termos-card02{
+    margin-top: 5%;
+    width: 100%;
+}
+
+
+.elementos-seguranca-termos-img{
+    display: flex;
+    flex-direction: row; 
+}
+
+.elementos-seguranca-termos-img01{
+    width: 36%;
+    padding-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.elementos-seguranca-termos-img02{
+    text-align: left;
+    margin-left: -8%;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5%;
+    width: 33%;
+}
+
+.elementos-seguranca-termos-img03{
+    text-align: left;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 33%;
+    margin-right: 5%;
+}
+
+.elementos-seguranca-termos-img02-texto{
+    margin-bottom: 2%;
+}
+
+.seguranca-img-termos{
+    display: flex;
+    justify-content:left;
+    margin-bottom: 3%;
+    width: auto;
+}
+
+.termos-botao-div2 {
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #c04f95;
+	display:inline-block;
+	cursor:pointer;
+	color:#c04f95;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 800;
+	font-size:13px;
+    text-align: center;
+	padding: 3% 3%;
+	text-decoration:none;
+
+}
+.termos-botao-div2:hover {
+	background-color:#c04f95;
+    color: white;
+
+}
+.termos-botao-div2:active {
+	position:relative;
+	top:1px;
+}
+
+.termos-botao-div-mensagem{
+    display: flex;
+	background-color:#bd4a36;
+	border:1px solid #000;
+	display:inline-block;
+	color:#FFF  ;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+	font-size:16px;
+    text-align: center;
+	padding: 12% 10%;
+    line-height: 28px;
+
+    width: 80%;
+}
+
+.transacoes-texto{
+    display: flex;
+    align-content: center;
+    margin-left: 9.5%;
+    margin-bottom: 2%;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.termos-uso-texto{
+    color:#FFF;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+	font-size:16px;
+    padding: 0% 15%;
+    margin-bottom: 5%;
+}
+
+.termos-texto-tot{
+    color: rgb(228, 200, 41);
+    font-weight: 800;
+}

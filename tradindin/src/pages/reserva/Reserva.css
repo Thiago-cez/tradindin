@@ -1,0 +1,185 @@
+.chamada_reserva{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 7%;
+        background-image: linear-gradient(to bottom, #32363f, #282f3d, #1e273b, #132039, #051937);
+    }
+
+.linha{
+        border-top: 1px solid rgb(235, 229, 229);
+        border-bottom: 1px solid rgb(235, 229, 229);
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+.chamada_oferta_reserva {
+    background: linear-gradient(
+        266deg, rgba(206,39,161,0.93) 0%, rgba(255,120,203,0.93) 100%);
+    width: 100%;
+    padding: 2%;
+  }
+
+
+  .chamada_oferta_reserva-t1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 8%;
+  }
+  
+  .chamada_oferta_reserva-t2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 8%;
+}
+
+
+.reserva-card02{
+    margin-top: 5%;
+    width: 100%;
+}
+
+
+.elementos-oferta-img{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    width: 100%;
+}
+
+.elementos-oferta-img01{
+    width: 33%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.elementos-oferta-img02{
+    text-align: left;
+    margin-left: -8%;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5%;
+    width: 33%;
+    justify-content: center;
+}
+
+.elementos-oferta-img03{
+    text-align: left;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 33%;
+    margin-right: 5%;
+}
+
+.elementos-oferta-img02-texto{
+    margin-bottom: 2%;
+}
+
+.oferta-img{
+    display: flex;
+    justify-content:left;
+    margin-bottom: 3%;
+    width: auto;
+    padding-right: 10%;
+}
+
+.reserva-botao-div2 {
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #c04f95;
+	display:inline-block;
+	cursor:pointer;
+	color:#c04f95;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 800;
+	font-size:13px;
+    text-align: center;
+	padding: 3% 3%;
+	text-decoration:none;
+
+}
+.reserva-botao-div2:hover {
+	background-color:#c04f95;
+    color: white;
+
+}
+.reserva-botao-div2:active {
+	position:relative;
+	top:1px;
+}
+
+.reserva-botao-div-mensagem{
+    display: flex;
+	background-color:#ffffff;
+	border:1px solid #c04f95;
+	display:inline-block;
+	color:#c04f95;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+	font-size:16px;
+    text-align: center;
+	padding: 12% 10%;
+    line-height: 28px;
+
+    width: 80%;
+}
+
+.transacoes-texto-reserva{
+    display: flex;
+    align-content: center;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.transacoes-texto-oferta{
+    display: flex;
+    align-content: center;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    color: #c5945d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bloco-total{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.bloco-esquerda{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    width: 50%;
+}
+
+.bloco-direita{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    width: 50%;
+}
+
+.text-text-reserva{
+    text-decoration: none;
+    color: #c04f95;}
